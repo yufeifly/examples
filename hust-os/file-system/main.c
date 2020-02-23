@@ -96,6 +96,26 @@ int main()
             wait(NULL);
             file_write(name); //将数据从BUFF写入文件
         }
+        //else if (!strcmp(command, "gcc"))
+        //{
+            //scanf("%s", name);
+            //if (type_check(name) != D_FILE)
+            //{
+                //printf("vim: cannot edit '%s': Not a file\n", name);
+                //continue;
+            //}
+
+            //file_read(name); //将数据从文件写入BUFF
+            //if (!fork())
+            //{
+                //char *argv[] = {"gcc", BUFF, "-o", "demo"};
+                //execvp("gcc", argv);
+            //}
+            //wait(NULL);
+            //printf("gcc\n");
+            ////make_file(inode_num, name, D_FILE);
+            //file_write(name); //将数据从BUFF写入文件
+        //}
         else
         {
             printf("%s command not found\n", command);
