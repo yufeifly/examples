@@ -1,3 +1,0 @@
-./amessage_serialize 2 2 #这个命令会生成pb.img 
-./amessage_deserialize #这个命令会读取pb.img,并解码，输出解码后的结果
-
