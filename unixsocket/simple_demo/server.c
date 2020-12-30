@@ -42,8 +42,8 @@ int main(void)
     }  
     printf("Accepting connections ...\n");  
  
-    while(1) {  
-        cliun_len = sizeof(cliun);         
+    while(1) {
+        cliun_len = sizeof(cliun);
         if ((connfd = accept(listenfd, (struct sockaddr *)&cliun, &cliun_len)) < 0){  
             perror("accept error");  
             continue;  
